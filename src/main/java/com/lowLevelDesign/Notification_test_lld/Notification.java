@@ -493,6 +493,7 @@ class NotificationSystemDemo {
                 System.out.println("ID: " + n.getId() + ", Type: " + n.getType() + ", Status: " + n.getStatus())
         );
 
+
         service.shutdown();
     }
 }
